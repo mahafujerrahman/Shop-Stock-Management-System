@@ -554,7 +554,7 @@ function subAmount() {
 	$("#subTotalValue").val(totalSubAmount);
 
 	// vat
-	var vat = (Number($("#subTotal").val())/100) * 13;
+	var vat = (Number($("#subTotal").val())/100) * 20;
 	vat = vat.toFixed(2);
 	$("#vat").val(vat);
 	$("#vatValue").val(vat);
