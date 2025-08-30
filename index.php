@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
 require_once 'php_action/db_connect.php';
 
 session_start();
@@ -43,7 +43,7 @@ if ($row>1) {
 	} // /else not empty username // password
 	
 } // /if $_POST
-?>
+?> -->
 
 <!DOCTYPE html>
 <html>
